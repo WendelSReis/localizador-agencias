@@ -1,0 +1,11 @@
+package br.com.localizador.repository;
+
+import br.com.localizador.model.Agencia;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface AgenciaRepositorio extends JpaRepository<Agencia, Long> {
+
+}
+
